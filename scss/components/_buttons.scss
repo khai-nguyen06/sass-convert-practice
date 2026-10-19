@@ -1,0 +1,9 @@
+// components/_buttons.scss
+.button {
+  @include button-style($primary-color);
+
+  // Nesting: trạng thái hover nằm ngay trong .button
+  &:hover {
+    opacity: 0.9;
+  }
+}

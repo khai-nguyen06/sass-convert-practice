@@ -1,0 +1,12 @@
+{
+  "name": "sass-convert-practice-a",
+  "version": "1.0.0",
+  "description": "Chuyển đổi CSS sang SCSS theo cấu trúc chuẩn",
+  "scripts": {
+    "build": "sass --no-source-map scss/main.scss dist/main.css",
+    "watch": "sass --watch scss/main.scss dist/main.css"
+  },
+  "devDependencies": {
+    "sass": "^1.80.0"
+  }
+}
